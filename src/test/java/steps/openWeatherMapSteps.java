@@ -9,6 +9,7 @@ public class openWeatherMapSteps {
     public void extractCoordinates( ){
         OpenWeatherMap openWeatherMap = new OpenWeatherMap();
         openWeatherMap.gettingLatAndLong();
+        openWeatherMap.gettingWeatherReport();
     }
 
 }
